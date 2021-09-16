@@ -8,72 +8,318 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <footer>
-        <h1><a href="#"><img src="#" alt="Logo"></a></h1>
-        <div>
-            <button modal-target="modal1">Đăng nhập</button>
-            <button modal-target="modal1">Đăng ký</button>
-        </div>
-    </footer>
-<!-- đăng nhập -->
-    <div class="box" id="modal1">
-        <div class="mark"></div>
-        <div class="boxdn">
-            <div class="heder">
-                <h2>Đăng nhập</h2>
-            </div>
-            <div class="conten">
-                <label for="user">Tên đăng nhập</label>
-                <input type="text" id="user">
-                <label for="pass">Mật khẩu</label>
-                <input type="password" id="pass">
-            </div>
-            <div class="foter">
-                <button>Đăng nhập</button>
-            </div>
-        </div>
-    </div>
-<!-- đăng ký -->
-<div class="box" id="modal2">
-    <div class="mark"></div>
-    <div class="boxdn">
-        <div class="heder">
-            <h2>Đăng ký ngay</h2>
-        </div>
-        <div class="conten">
-            <label for="user">Tên đăng nhập</label>
-            <input type="text" id="user">
-            <label for="pass">Mật khẩu</label>
-            <input type="password" id="pass">
-            <label for="passrp">Mật lại khẩu</label>
-            <input type="password" id="passrp">
-            <div>
-                <a href="#">Điều khoản</a>
-                <input type="checkbox" name="" id="dk">
-                <label for="dk">Tôi đồng ý</label>
-            </div>
-        </div>
-        <div class="foter">
-            <button>Đăng nhập</button>
-        </div>
-    </div>
-</div>
 
-
-<!-- banner -->
-<section class="viewer">
-    <div class="banner" id="banner1">
-        <div class="view">
-            <img src="img/a1.jpg" alt="">
-        </div>
+<header>
+    <div class="container">
+        <h1>
+            <a href="#"><img src="item/modest_logo.png" alt=""></a>
+        </h1>
         <ul>
-            <li><a href="img/a1.jpg"><img src="img/1.jpg" alt=""></a></li>
-            <li><a href="img/a2.jpg"><img src="img/2.jpg" alt=""></a></li>
-            <li><a href="img/a3.jpg"><img src="img/3.png" alt=""></a></li>
-            <li><a href="img/a4.jpg"><img src="img/4.jpg" alt=""></a></li>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </div>
+</header>
+
+<section id="jumbotron">
+    <div class="container">
+        <div class="info">
+            <h2>welcome to our marketplace</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+            <div>
+                <a href="#">View More</a>
+                <a href="#">Video Tour</a>
+            </div>
+        </div>
+        <div class="dots">
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+        </div>
+    </div>
 </section>
+
+<section id="ruler">
+    <div class="container">
+        <h2>we are modest.</h2>
+        <div id="weam">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at. </p>
+                <p>Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p>
+                <ul>
+                    <li id="facbook"><a href="#">Facebook</a></li>
+                    <li id="tiwtter"><a href="#">Tiwtter</a></li>
+                    <li id="google"><a href="#">Google</a></li>
+                    <li id="ball"><a href="#">Ball</a></li>
+                    <li id="be"><a href="#">Be</a></li>
+                </ul>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">Dedication to the customers</a>
+                    <p>nteger vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus. Nam porttitor blandit </p>
+                </li>
+                <li>
+                    <a href="#">working closely with our clients</a>
+                    <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+                </li>
+                <li>
+                    <a href="#">increase happiness</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                </li>
+            </ul>
+        </div>
+    </div>>
+</section>
+
+<section id="team" class="container">
+    <h2>Meet the team</h2>
+    <div id="pro">
+        <div>
+            <img src="item/picman.jpg" alt="">
+            <div>
+                <p>Gloria Bromley</p>
+                <p>CEO and Founder</p>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Tiwtter</a></li>
+                    <li><a href="#">In</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src="item/picman2.jpg" alt="">
+            <div>
+                <p>Paul Torres</p>
+                <p>Head of Development</p>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Tiwtter</a></li>
+                    <li><a href="#">In</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src="item/picgirl.jpg" alt="">
+            <div>
+                <p>Judith Gillette</p>
+                <p>Graphic Desinger</p>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Tiwtter</a></li>
+                    <li><a href="#">In</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <img src="item/picman3.jpg" alt="">
+            <div>
+                <p>Delores Reed</p>
+                <p>Client Service Director</p>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Tiwtter</a></li>
+                    <li><a href="#">In</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="works">
+    <div class="container">
+        <h2>Lovely work</h2>
+        <div id="lovew">
+            <div>
+                <a href="#">
+                    <img src="item/work.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="item/work1.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="item/work2.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="item/work3.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="item/work4.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="item/work5.jpg" alt="">
+                    <div class="mark">
+                    </div>
+                    <p>partnership guidlines</p>
+                </a>
+            </div>
+        </div>
+        <div id="show">
+            <a>Show me more</a>
+        </div>
+    </div>
+</section>
+
+<section id="wedo">
+    <div class="container">
+        <h2>What we do</h2>
+        <div>
+            <div>
+                <img src="item/icon/cogs.png" alt="">
+                <a href="#">Easy theme Setup</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/pencil.png" alt="">
+                <a href="#">pixel perfect design</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/mobile.png" alt="">
+                <a href="#">responsive display</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/clock.png" alt="">
+                <a href="#">24/7 support</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/cogs.png" alt="">
+                <a href="#">Easy theme Setup</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/pencil.png" alt="">
+                <a href="#">pixel perfect design</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/mobile.png" alt="">
+                <a href="#">responsive display</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+            <div>
+                <img src="item/icon/clock.png" alt="">
+                <a href="#">24/7 support</a>
+                <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <h2>Features</h2>
+        <div>
+            <div>
+                <img src="item/features.jpg" alt="">
+                <h3>Product Design: Eames Chairs</h3>
+                <p>Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</p>
+            </div>
+            <div>
+                <img src="item/features1.jpg" alt="">
+                <h3>Elegant and Colorful Logos</h3>
+                <p>I’ve always found logo design to be one of the most challenging things to get right. There’s so much that a logo can say about a brand without actually saying it.</p>
+            </div>
+            <div>
+                <img src="item/features2.jpg" alt="">
+                <h3>A Showcase of Creative</h3>
+                <p>It’s always interesting to see another designer’s take on a famous website, app or even physical product. Different designers add their own personality and style.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<setion id="touch">
+    <div class="container">
+        <h2>stay in touch.</h2>
+    </div>
+    <div id="map">
+        <map name="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59826.428604945984!2d106.13187728209995!3d20.417833990729278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135e0adb8d5f1cd%3A0xb5f4baba00e67462!2zVHAuIE5hbSDEkOG7i25oLCBOYW0gxJDhu4tuaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1629631969505!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </map>
+    </div>
+    <div class="container">
+        <div>
+            <h3>contact information</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida. </p>
+            <p>Cras fermentum elit quis magna congue, <span>vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus </p>
+        </div>
+        <form action="#">
+            <div id="act1">
+                <label for="name">YOUR NAME</label>
+                <input type="text" id="name">
+            </div>
+            <div id="act2">
+                <label for="email">YOUR MAIL</label>
+                <input type="email" id="email">
+            </div>
+            <div id="act3">
+                <label for="mess">  your message</label>
+                <textarea name="mess" id="mess" cols="30" rows="10"></textarea>
+            </div>
+            <div id="act4">
+                <button type="submit">send message</button>
+            </div>
+        </form>
+    </div>
+</setion>
+
+<footer>
+    <div>
+        <div class="container">
+            <p>© Copyright 2014 by PSD Booster. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">Tiwtter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Sky</a></li>
+                <li><a href="#">Be</a></li>
+                <li><a href="#">In</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 </body>
-<script src="java.js"></script>
 </html>
